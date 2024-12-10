@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/splashBackgroundColor"
+    android:padding="@dimen/default_padding">
+
+    <!-- Customized TextView for CyclingTracking -->
+    <TextView
+        android:id="@+id/cyclingTrackingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lobster_regular"
+        android:text="CyclingTracking"
+        android:textColor="#00008B"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+
+</LinearLayout>

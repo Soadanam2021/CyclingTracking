@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "701944159515",
+    "firebase_url": "https://bicycle-speed-tracker-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bicycle-speed-tracker",
+    "storage_bucket": "bicycle-speed-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701944159515:android:6f1e57ebf9cf81ec2647be",
+        "android_client_info": {
+          "package_name": "com.example.cyclingtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701944159515-ih8sfs1kugqd2ep6hv0edgh157f79r7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdeJTZiVsphe28VX7SJLevHvbM9n4FsvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701944159515-ih8sfs1kugqd2ep6hv0edgh157f79r7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
